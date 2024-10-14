@@ -5,28 +5,28 @@
 /feature_store
 │
 ├── /data_processing
-│   ├── /transformers       # Модуль для преобразования и обработки данных
-│   ├── /aggregators        # Модуль для агрегации данных
-│   ├── processing_service.py  # Основная логика обработки данных
+│   ├── /transformers      
+│   ├── /aggregators       
+│   ├── processing_service.py  
 │
 ├── /data_storage
-│   ├── /models            # Модели данных, используемые для взаимодействия с PostgreSQL
-│   ├── /repositories      # Репозитории для работы с PostgreSQL
-│   └── storage_service.py # Логика сохранения данных в PostgreSQL
+│   ├── /models            
+│   ├── /repositories     
+│   └── storage_service.py 
 │
 ├── /api
-│   ├── api_service.py      # Логика для получения данных от DWH через API
-│   ├── frontend_service.py # Логика передачи данных на фронтенд через API
+│   ├── api_service.py    
+│   ├── frontend_service.py 
 │
 ├── /config
-│   └── config.py           # Настройки подключения к DWH API, PostgreSQL и другие параметры
+│   └── config.py         
 │
 ├── /tests
-│   ├── /unit_tests         # Модульные тесты для отдельных компонентов
-│   ├── /integration_tests  # Интеграционные тесты для проверки взаимодействия модулей
-│   └── test_data.json      # Пример тестовых данных
+│   ├── /unit_tests      
+│   ├── /integration_tests  
+│   └── test_data.json      
 │
-└── main.py                 # Главный файл для запуска feature store
+└── main.py             
 ```
 
 ### Описание папок и их логики
