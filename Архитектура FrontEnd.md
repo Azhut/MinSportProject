@@ -5,35 +5,35 @@
 ```
 /frontend
 │
-├── /public                 # Статические файлы (HTML, изображения и т.д.)
-│   └── index.html          # Основной HTML файл
+├── /public                
+│   └── index.html         
 │
 ├── /src
-│   ├── /components         # Компоненты React
-│   │   ├── /common         # Общие компоненты (кнопки, модальные окна и т.д.)
-│   │   ├── /charts         # Компоненты для отображения диаграмм
-│   │   ├── /tables         # Компоненты для отображения таблиц
-│   │   └── Dashboard.js     # Основной компонент dashboard
+│   ├── /components      
+│   │   ├── /common       
+│   │   ├── /charts        
+│   │   ├── /tables         
+│   │   └── Dashboard.js     
 │   │
-│   ├── /hooks              # Пользовательские хуки для управления состоянием
+│   ├── /hooks             
 │   │   └── useFetch.js     # Хук для получения данных с API
 │   │
-│   ├── /services           # Логика взаимодействия с API
-│   │   ├── api.js          # Основной файл для API-запросов
-│   │   └── featureStoreService.js  # Запросы к feature store
+│   ├── /services         
+│   │   ├── api.js          
+│   │   └── featureStoreService.js  
 │   │
-│   ├── /context            # Контекст для управления состоянием
-│   │   └── AppContext.js   # Контекст приложения
+│   ├── /context            
+│   │   └── AppContext.js   
 │   │
-│   ├── /styles             # CSS или SCSS стили
-│   │   └── main.css        # Основные стили
+│   ├── /styles            
+│   │   └── main.css     
 │   │
-│   ├── /utils              # Утилиты и вспомогательные функции
-│   │   └── formatData.js   # Функции для обработки и форматирования данных
+│   ├── /utils           
+│   │   └── formatData.js   
 │   │
-│   └── App.js              # Основной компонент приложения
+│   └── App.js             
 │
-└── package.json            # Конфигурационный файл проекта
+└── package.json            
 ```
 
 ### Описание структуры:
